@@ -1,0 +1,53 @@
+/* Grid styling for the form */
+.form-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 2 equal columns */
+  gap: 20px; /* space between elements */
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Input styling */
+.form-input {
+  grid-column: span 2; /* Take full width across both columns */
+}
+
+.form-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Error message styling */
+.input-error p {
+  color: red;
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+/* Button styling */
+.btn {
+  grid-column: span 2; /* Take full width across both columns */
+  text-align: center;
+}
+
+.loookup {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.loookup:hover {
+  background-color: #0056b3;
+}

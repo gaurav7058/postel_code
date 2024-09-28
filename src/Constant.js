@@ -1,0 +1,1 @@
+export const postel_API="https://api.postalpincode.in/pincode/"
